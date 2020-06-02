@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Aplicación con Material Design</string>
+    <string name="name">Nombre Completo</string>
+    <string name="birth_date">Fecha de Nacimiento</string>
+    <string name="phone">Teléfono</string>
+    <string name="description">Descripción</string>
+    <string name="email">Correo Electrónico</string>
+
+    <string name="title">Confirmar Datos</string>
+    <string name="button_edit">Editar Datos</string>
+
+
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name='Aplicación con Material Design'
+include ':app'

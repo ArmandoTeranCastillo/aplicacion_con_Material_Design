@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id= "@+id/text_input_name"
+        android:layout_width = "@dimen/edit_text_weight"
+        android:layout_height = "wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/distance_horizontal"
+        android:layout_marginTop="@dimen/distance_top"
+        app:errorEnabled="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id= "@+id/edit_text_input_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/design_default_color_background"
+            android:hint = "@string/name"
+            android:textSize="@dimen/name"
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <!--Espacio para escribir la fecha de nacimiento-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id= "@+id/text_input_birth_date"
+        android:layout_width = "@dimen/edit_text_weight"
+        android:layout_height = "wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/distance_horizontal"
+        app:errorEnabled="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_birth_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint = "@string/birth_date"
+            android:textSize="@dimen/birth_date"
+            android:background="@color/design_default_color_background"
+            android:focusable="false"
+            android:inputType="datetime"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--Espacio para escribir el número de teléfono-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id= "@+id/text_input_phone"
+        android:layout_width = "@dimen/edit_text_weight"
+        android:layout_height = "wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/distance_horizontal"
+        app:errorEnabled="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/design_default_color_background"
+            android:hint = "@string/phone"
+            android:textSize="@dimen/phone"
+            android:inputType="phone"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Espacio para escribir el número de teléfono-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id= "@+id/text_input_email"
+        android:layout_width = "@dimen/edit_text_weight"
+        android:layout_height = "wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/distance_horizontal"
+        app:errorEnabled="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/design_default_color_background"
+            android:hint = "@string/email"
+            android:textSize="@dimen/email"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--Espacio para escribir la descripción del cliente-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id= "@+id/text_input_description"
+        android:layout_width = "@dimen/edit_text_weight"
+        android:layout_height = "wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        app:errorEnabled="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/design_default_color_background"
+            android:hint = "@string/description"
+            android:textSize="@dimen/description"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <!--Espacio para botón-->
+        <Button
+            android:id="@+id/edit_text_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="@dimen/button_distance"
+            android:hint = "@string/description"
+            android:textSize="@dimen/button"
+            android:textColor="@color/colorText"
+            />
+
+
+
+</LinearLayout>
